@@ -1,14 +1,10 @@
 package car;
 
-import java.io.Serializable;
-
-public interface Car extends Serializable{
+public interface Car{
     int TIRES = 4;
     String getModel();
     String getColor();
     int getHorsePower();
     String countryProduced();
-
-
 
 }
